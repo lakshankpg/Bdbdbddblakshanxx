@@ -48,7 +48,7 @@ https://github.com/JESTER-EXE/SENU-X-BOT
   
 ----
 
-![Image](https://files.catbox.moe/f08cck.jpg)
+![Image]()
 
 ----
 
