@@ -45,10 +45,7 @@ https://github.com/JESTER-EXE/SENU-X-BOT
   </p>
   
 
-  
-----
 
-![Image]()
 
 ----
 
