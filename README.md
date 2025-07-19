@@ -1,3 +1,6 @@
+a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=810&height=100&lines=+SENU-X-BOT;IS+THE+UPDATE+VERSION;OF+SENU-X-BOT;BEST+MULTI+DEVICE+BOT;CREATED+BY+JESTER+EXE" alt="Typing SVG" /></a>
+  </p>
+
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
 -----------
@@ -41,7 +44,7 @@ https://github.com/JESTER-EXE/SENU-X-BOT
 
 ---------
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=810&height=100&lines=+SENU-X-BOT;IS+THE+UPDATE+VERSION;OF+SENU-X-BOT;BEST+MULTI+DEVICE+BOT;CREATED+BY+JESTER+432" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=810&height=100&lines=+SENU-X-BOT;IS+THE+UPDATE+VERSION;OF+SENU-X-BOT;BEST+MULTI+DEVICE+BOT;CREATED+BY+JESTER+EXE" alt="Typing SVG" /></a>
   </p>
   
 
