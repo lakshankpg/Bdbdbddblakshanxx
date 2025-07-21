@@ -13,19 +13,20 @@ cmd({
 },
 async (conn, mek, m, { from, sender, reply }) => {
     try {
-        const status =`
-╭───〔 *🤖 ${config.BOT_NAME} STATUS* 〕───◉
-│✨ *Bot is Active & Online!*
-│
-│🧠 *Owner:* ${config.OWNER_NAME}
-│⚡ *Version:* 4.0.0
-│📝 *Prefix:* [${config.PREFIX}]
-│📳 *Mode:* [${config.MODE}]
-│💾 *RAM:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
-│🖥️ *Host:* ${os.hostname()}
-│⌛ *Uptime:* ${runtime(process.uptime())}
-╰────────────────────◉
-> ${config.DESCRIPTION}`;
+        const status ={
+        const status = `╭━━〔 *SENU X BOT* 〕━━┈⊷
+┃◈╭─────────────·๏
+┃◈┃• *⏳𝐔ᴘᴛɪᴍᴇ*:  ${runtime(process.uptime())} 
+┃◈┃• *📟 𝐑ᴀᴍ 𝐔ꜱᴀɢᴇ*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
+┃◈┃• *⚙️ 𝐇ᴏꜱᴛɴᴀᴍᴇ*: ${os.hostname()}
+┃◈┃• *🧬 𝐕ᴇʀꜱɪᴏɴ*: V3 BETA
+┃◈└───────────┈⊷
+╰──────────────┈⊷
+
+𝐇𝐞𝐥𝐥𝐨𝐰,𝐈'𝐦 𝐒𝐄𝐍𝐔 𝐌𝐃.𝐈'𝐦 𝐀𝐥𝐢𝐯𝐞 𝐧𝐨𝐰🧚‍♂️ ....
+
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴊᴇꜱᴛᴇʀ ᴇxᴇ`;
+
 
         await conn.sendMessage(from, {
             image: { url: config.MENU_IMAGE_URL },
@@ -36,7 +37,7 @@ async (conn, mek, m, { from, sender, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363388320701164@newsletter',
-                    newsletterName: 'JesterTechX',
+                    newsletterName: 'SENU-X-BOT',
                     serverMessageId: 143
                 }
             }
