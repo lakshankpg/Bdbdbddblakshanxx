@@ -34,17 +34,17 @@ cmd({
 
         const { url, title, image, timestamp, ago, views, author } = data.results[0];
 
-        let info = `🍄 *SENU-MD SONG DL* 🍄\n\n` +
-            `🎵 *Title:* ${title || "Unknown"}\n` +
-            `⏳ *Duration:* ${timestamp || "Unknown"}\n` +
-            `👀 *Views:* ${views || "Unknown"}\n` +
-            `🌏 *Release Ago:* ${ago || "Unknown"}\n` +
-            `👤 *Author:* ${author?.name || "Unknown"}\n` +
-            `🖇 *Url:* ${url || "Unknown"}\n\n` +
-            `🔽 *Reply with your choice:*\n` +
-            `1.1 *Audio Type* 🎵\n` +
-            `1.2 *Document Type* 📁\n\n` +
-            `${config.FOOTER || "𓆩JesterTechX𓆪"}`;
+        let info = `🧚‍♀️ *SENU X SONG DL* 🧚‍♀️\n\n` +
+            `🎵 *𝐓ɪᴛʟᴇ:* ${title || "Unknown"}\n` +
+            `⏳ *𝐃ᴜʀᴀᴛɪᴏɴ:* ${timestamp || "Unknown"}\n` +
+            `👀 *𝐕ɪᴇᴡꜱ:* ${views || "Unknown"}\n` +
+            `🌏 *𝐑ᴇʟᴇᴀꜱᴇ 𝐀ɢᴏ:* ${ago || "Unknown"}\n` +
+            `👤 *𝐀ᴜᴛʜᴏʀ:* ${author?.name || "Unknown"}\n` +
+            `🖇 *𝐔ʀʟ:* ${url || "Unknown"}\n\n` +
+            `🔽 *𝐑ᴇᴘʟʏ 𝐖ɪᴛʜ 𝐘ᴏᴜʀ 𝐂ʜᴏɪᴄᴇ:*\n` +
+            `1.1 *ᴀᴜᴅɪᴏ ᴛʏᴘᴇ* 🎵\n` +
+            `1.2 *ᴅᴏᴄᴜᴍᴇɴᴛ ᴛʏᴘᴇ* 📁\n\n` +
+            `${config.FOOTER || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴊᴇꜱᴛᴇʀ"}`;
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
         const messageID = sentMsg.key.id;
@@ -74,7 +74,7 @@ cmd({
                     type = { audio: { url: downloadUrl }, mimetype: "audio/mpeg" };
                     
                 } else if (userReply === "1.2") {
-                    msg = await conn.sendMessage(from, { text: "⏳ Processing..." }, { quoted: mek });
+                    msg = await conn.sendMessage(from, { text: "⏳ 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠..." }, { quoted: mek });
                     const response = await dy_scrap.ytmp3(`https://youtube.com/watch?v=${id}`);
                     let downloadUrl = response?.result?.download?.url;
                     if (!downloadUrl) return await reply("❌ Download link not found!");
@@ -85,7 +85,7 @@ cmd({
                 }
 
                 await conn.sendMessage(from, type, { quoted: mek });
-                await conn.sendMessage(from, { text: '✅ Media Upload Successful ✅', edit: msg.key });
+                await conn.sendMessage(from, { text: '✅ 𝐒𝐞𝐧𝐮 𝐱 𝐦𝐞𝐝𝐢𝐚 𝐮𝐩𝐥𝐨𝐚𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥 ✅', edit: msg.key });
 
             } catch (error) {
                 console.error(error);
