@@ -9,7 +9,7 @@
     "restart": "pm2 restart SENU-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:asitha-baliyes-new",
+    "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
     "@adiwajshing/keyed-db": "latest",
     "@dark-yasiya/yt-dl.js": "latest",
     "@ffmpeg-installer/ffmpeg": "latest",
